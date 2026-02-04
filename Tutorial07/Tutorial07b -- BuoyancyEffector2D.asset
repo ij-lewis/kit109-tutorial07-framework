@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f107dc6d4c984c45bdafd3bb15f98f0, type: 3}
+  m_Name: Tutorial07b -- BuoyancyEffector2D
+  m_EditorClassIdentifier: 
+  TutorialTitle:
+    m_Untranslated: Tutorial07b -- BuoyancyEffector2D
+  m_TutorialTitle: 
+  m_LessonId: 702
+  m_Version: 1
+  m_Scene: {fileID: 102900000, guid: ab6486c3710190b45b41dfb3a5d1626c, type: 3}
+  m_OrOpenSceneName: 
+  m_DefaultSceneCameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  m_SkipTutorialBehavior: 0
+  m_WindowLayout: {fileID: 0}
+  m_Pages:
+    m_Items:
+    - {fileID: 11400000, guid: d9d637427d90d0a43bb648c17f4733d4, type: 2}
+    - {fileID: 11400000, guid: 6a1407c9725a2324796f8aa4c869c327, type: 2}
+    - {fileID: 11400000, guid: 5412c80ab250ad14fa1951a623fbec31, type: 2}
+    - {fileID: 11400000, guid: 22db01c4007d32d43ba164c3420a8035, type: 2}
+    - {fileID: 11400000, guid: 8e15f00b0e3490842999dbc71ce0241b, type: 2}
+    - {fileID: 11400000, guid: 5533239e6a7739a4291ef75c3e7c91b7, type: 2}
+    - {fileID: 11400000, guid: 23e45854110c2144d9d05b681a71bc74, type: 2}
+    - {fileID: 11400000, guid: 0355543be98b24c47b698ee53f807a6b, type: 2}
+    - {fileID: 11400000, guid: c1dcecc30b5411e4b996493ba50c81a1, type: 2}

@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89305aa391d1c5141bbe1628d930a2c5, type: 3}
+  m_Name: Tutorials
+  m_EditorClassIdentifier: 
+  HeaderBackground: {fileID: 2800000, guid: adc1e3df3f467c34cb47f573ffd2293e, type: 3}
+  Title:
+    m_Untranslated: KIT109 Tutorial 7
+  Subtitle:
+    m_Untranslated: University of Tasmania
+  Description:
+    m_Untranslated: 
+  ProjectLayout: {fileID: 0}
+  currentTutorialSystemVersion: 100
+  currentTutorialContentVersion: 100
+  guildID: 1465503930015547566
+  tutorialID: tutorial67
+  tabNames: []
+  tabTooltips: []
+  basePackages: []
+  Sections:
+  - kit109Tutorial: -1
+    Heading:
+      m_Untranslated: Introduction
+    Text:
+      m_Untranslated: Explore the base project.
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 1d9d81b4375030847b48a5cf0cd637c7, type: 3}
+    IndexOfPrereqSection: -1
+    Tutorial: {fileID: 11400000, guid: 1ff47bd3282b2b9489c97ae19eff42d8, type: 2}
+  - kit109Tutorial: -1
+    Heading:
+      m_Untranslated: BuoyancyEffector2D
+    Text:
+      m_Untranslated: Add a water hazard to the Offroading scene!
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 1d9d81b4375030847b48a5cf0cd637c7, type: 3}
+    IndexOfPrereqSection: 0
+    Tutorial: {fileID: 11400000, guid: 4e251e9ed1ae8dd4ebbabc9c3e767ab8, type: 2}
+  - kit109Tutorial: -1
+    Heading:
+      m_Untranslated: AreaEffector2D
+    Text:
+      m_Untranslated: Add a gravity hazard to the Offroading scene!
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 1d9d81b4375030847b48a5cf0cd637c7, type: 3}
+    IndexOfPrereqSection: 1
+    Tutorial: {fileID: 11400000, guid: 4123f85c829f0c749a10562ce1390b31, type: 2}
+  - kit109Tutorial: -1
+    Heading:
+      m_Untranslated: SurfaceEffector2D
+    Text:
+      m_Untranslated: Add a speed boost surface to the Offroading scene!
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 1d9d81b4375030847b48a5cf0cd637c7, type: 3}
+    IndexOfPrereqSection: 2
+    Tutorial: {fileID: 11400000, guid: 6e5f1887d9945de49988999cb506a636, type: 2}
+  - kit109Tutorial: -1
+    Heading:
+      m_Untranslated: Exercise
+    Text:
+      m_Untranslated: Complete this to get marked off for this tutorial.
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: da615a7ab29fd944d94c2cb73e1b98d3, type: 3}
+    IndexOfPrereqSection: -1
+    Tutorial: {fileID: 11400000, guid: cc6b9ea4572c3ae4cb30e31ecddc8d96, type: 2}
+  - kit109Tutorial: -1
+    Heading:
+      m_Untranslated: MyLO Quiz 7
+    Text:
+      m_Untranslated: Effectors.
+    Metadata: 
+    Url: NEW 1. https://mylo.utas.edu.au/d2l/le/content/770825/viewContent/6400718/View
+      2. https://mylo.utas.edu.au/d2l/le/content/770825/viewContent/6400719/View
+      3. https://mylo.utas.edu.au/d2l/le/content/770825/viewContent/6400720/View
+      4. https://mylo.utas.edu.au/d2l/le/content/770825/viewContent/6400721/View
+      5. https://mylo.utas.edu.au/d2l/le/content/770825/viewContent/6400722/View
+      6. https://mylo.utas.edu.au/d2l/le/content/770825/viewContent/6400730/View
+      7. https://mylo.utas.edu.au/d2l/le/content/770825/viewContent/6400731/View
+      8. https://mylo.utas.edu.au/d2l/le/content/770825/viewContent/6400723/View
+      9. https://mylo.utas.edu.au/d2l/le/content/770825/viewContent/6400724/View
+      10. https://mylo.utas.edu.au/d2l/le/content/770825/viewContent/6400725/View
+      11. https://mylo.utas.edu.au/d2l/le/content/770825/viewContent/6400726/View
+      12. https://mylo.utas.edu.au/d2l/le/content/770825/viewContent/6400727/View
+      13. https://mylo.utas.edu.au/d2l/le/content/770825/viewContent/6400728/View
+      14. https://mylo.utas.edu.au/d2l/le/content/770825/viewContent/6400729/View
+      15. https://mylo.utas.edu.au/d2l/le/content/770825/viewContent/6400732/View
+    Image: {fileID: 2800000, guid: f1b9caa53ea0e4d44bc3fba0aa501c60, type: 3}
+    IndexOfPrereqSection: -1
+    Tutorial: {fileID: 0}
+  showBasePackages: 1
