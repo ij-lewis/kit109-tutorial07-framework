@@ -22,7 +22,11 @@ MonoBehaviour:
           the marks for this practical.\r\n\r\n\n<b>Experiment with Making a Spacewar!
           Clone.</b>\r\nIf you haven't heard of Spacewar! before:\r\n\u2022 Recording
           of emulated version: <a>https://www.youtube.com/watch?v=Rmvb4Hktv7U</a>\r\n\u2022
-          Fancy version made by a past student: <a>https://codemyster.itch.io/spacewar</a>"
+          Fancy version made by a past student: <a>https://codemyster.itch.io/spacewar</a>  (currently this link is broken, but I'm trying to get them to put it back up)\r\n\r\nThe basic idea is:\r\n
+		  \u2022 there's two players (each with their own controls), \r\n
+		  \u2022 they can shoot at each other, and \r\n
+		  \u2022 the ships and the bullets are
+		  affected by a black hole in the centre of the screen (that should drag them towards the centre no matter what, not just when the ships are close to it).\r\n"
       m_PollItems: []
       m_PollCorrectItemIndexes: 00000000
       m_Tutorial: {fileID: 0}
@@ -45,8 +49,7 @@ MonoBehaviour:
       Title:
         m_Untranslated: Use Invaderoids as a Starting Point
       Text:
-        m_Untranslated: 'Make a copy of the Invaderoids project (from an earlier
-          practical).
+        m_Untranslated: 'Make a copy of the Invaderoids project (for an earlier practical), or bring a bunch of assets from that project into this one (you might find it useful to use the menu option <i>Assets > Export as Asset Package</i>).
 
           Your starting scene should have a player and some
           Invaderoids. It''s up to you if you delete the Invaderoids, or leave them
@@ -74,7 +77,8 @@ MonoBehaviour:
         m_Untranslated: Add a Star/Blackhole
       Text:
         m_Untranslated: "Add a Point Effector 2D that simulates gravity to the centre
-          of the Scene (Hint: play with the different \u201CForce Mode\u201D settings)."
+          of the Scene (Hint: play with the different \u201CForce Mode\u201D settings 
+		  until the gravity \"well\" is big enough, and <i>feels</i> correct)."
       m_PollItems: []
       m_PollCorrectItemIndexes: 00000000
       m_Tutorial: {fileID: 0}
@@ -97,14 +101,14 @@ MonoBehaviour:
       Title:
         m_Untranslated: Add a Second Player
       Text:
-        m_Untranslated: "Add a copy of the player (called SS Triangle probably),
+        m_Untranslated: "Add a copy of the player (called \"SS Triangle\" or some other Simpsons' reference if you like),
           i.e. to have two players in the Scene.\r\nMake it use different controls.\r\nHint:
           there are multiple ways to do this, e.g.:\r\n\u2022 Make complete copies
           of the script(s) that control movement, and manually change the code to
           use different keys and have different script(s) on each player.\r\n\u2022
           Modify the player code, to make it possible to modify (via the Inspector)
-          which keys control each player. Here, having public <c>Keycode</c> variables
-          is what you want.\r\n"
+          which keys control each player. Here, having public <c>Key</c> variables
+          is what you want.\r\n \r\n"
       m_PollItems: []
       m_PollCorrectItemIndexes: 00000000
       m_Tutorial: {fileID: 0}
@@ -135,7 +139,7 @@ MonoBehaviour:
           Scene (e.g. the star, invaderoids, etc.)\r\n\u2022 Having different Prefabs
           for each player's bullets, should allow you to put each bullet on a different
           layer.\r\n\u2022 You need to change the collision 'matrix' in <i>Project
-          Settings > Physics 2D</i>."
+          Settings > Physics 2D</i>.\r\n \r\n \r\n"
       m_PollItems: []
       m_PollCorrectItemIndexes: 00000000
       m_Tutorial: {fileID: 0}
